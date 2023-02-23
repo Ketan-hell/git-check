@@ -1,0 +1,19 @@
+Assignment-4
+Debugging a program
+
+
+For Case 4 - sorting an expenses:
+i used java collection class to sort the given arraylist as th collection is present in java collection framework.
+java.util.Collections;
+and then we call this class and use sorting method
+Collections.sort(arrayList);
+and then print this list of expenses before and after sorting
+
+
+For case 5- searching the expenses:
+First get input from user for the expense to be search using Scanner class;
+now applying for loop to search that element in the list;
+using if condition to see if the expense is present in the arraylist
+if arrayList.contains expenses
+it will print that expense is present and the index;
+else it will print expense is not present.

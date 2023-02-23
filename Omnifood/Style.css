@@ -1,0 +1,401 @@
+
+
+*
+{
+padding:0;
+margin:0;
+box-sizing: border-box;
+    
+}
+
+.row{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h2{
+font-size: 2.5em;
+ font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+
+}
+h3{
+font-size: 25px;
+ font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+ h2::after{
+    content: " ";
+   text-align: center;
+    display: block;
+    margin-top: 3px;
+    width: 180px;
+    height: 2px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.cities{
+    height: 100vh;
+    width: 100%;
+}
+ion-icon{
+    margin-bottom: 7%;
+}
+.feature{
+    display: inline;
+}
+.feature span{
+    margin-bottom: 7%;
+}
+.love{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    height: auto;
+    
+}
+.love .col{
+    margin: 1%;
+    padding: 1%;
+}
+.cities .love .col img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    
+}
+.cities .love .col img:hover{
+    transform: scale(1.1);
+    
+}
+.cities .love .col a{
+text-decoration: none;
+    border-bottom: 2px solid orange;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    color: black;
+    
+}
+.cities .love .col a:hover{
+    text-decoration: none;
+    color: black;
+        border-bottom: 2px solid transparent;
+    
+}
+.cities .love .col .ioni{
+    color: orange;
+
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -4px;
+    font-size: 19px;
+}
+
+.customer{
+    position: relative;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)),url("Resources/Images/back-customers.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.customer h2{
+    position: relative;
+    top:40px;
+    color: white;   
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.test{
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 25px;
+    text-emphasis: bold;
+    color: white;
+}
+.test .sec{
+    width: 25%;
+    height: 100%;
+    align-content: flex-end;
+    text-align: left;
+   border: 2px solid red;
+    font-style: italic;
+    position: relative;
+}
+
+
+
+.test .sec cite img{
+    position: relative;
+    width: 25px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.test .sec::before{
+    content: "\0022";
+    font-size: 60px;
+    display: block;
+    position: relative;
+    margin-bottom: -30px;
+    left: -5px;
+}
+cite{
+    padding: 8px;
+    position: absolute;
+ vertical-align:center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.sign{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: block;
+    position: relative;
+    background-color: gainsboro;
+}
+.sign .plan{
+    margin: 50px 3%;
+    display: block;
+    float: left;
+    width: 27.33%;
+    height: 60%;
+box-shadow: 4px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+.sign .plan .price{
+    font-size: 40px;
+    font-weight:200;
+    color: orange;
+}
+.sign .plan .price::after{
+    content: "/month";
+    font-size: 20px;
+    font-weight:200;
+    color: orange;
+}
+.sign .plan .cost::after{
+    content: "/meal";
+    font-size: 20px;
+    font-weight:200;
+    color: orange;
+}
+
+.sign .plan .col{
+    background-color: gainsboro;
+    padding: 0;
+    margin: 2px;
+    margin-bottom: 25px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;}
+
+    
+ .sign .plan .pro,input[type=submit]:hover {
+    background-color: orangered;   
+}
+.sign .plan .btn,
+input[type=submit]{
+       border: 2px solid orange;
+    margin-top: 30px;
+    position: relative;
+    padding: 10px;
+    top: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 50px;
+    
+}
+.sign .plan .btn:hover,
+input[type=submit]:hover{
+    background-color: orange;
+    transition: background-color 0.4s;
+}
+
+    ion-icon{
+        color: orange;
+        font-size: 23px;
+        font-style: italic;
+        align-items: center;
+        text-align: center;
+        
+    }
+.data{
+ position: relative;
+    padding: 3px;
+    margin-left: 60px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 300;
+  
+}
+.contact-data{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+        
+}
+.contact-data .contact-form{
+    position: relative;
+    width: 60%;
+    padding: 4% 10% 10%;
+    height: 85vh;
+}
+.log{
+    height: 16.66%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.alot{
+    width: 100%;
+    position: relative;
+    left: 50%;
+}
+
+.feat{
+    width: 33.3%;
+    padding: 3%;
+     float: left;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    width:66.6%;
+    text-align: left;
+  padding: 3%;
+    float: right;
+     justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+input[type=text],input[type=email], select, textarea, checkbox{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+textarea{height: 80px;}
+input[type=submit]{
+    position: relative;
+    top: -35px;
+    width: 120px;
+    background-color: orangered;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    
+}
+.foot-nav{
+  position: relative;
+    width:55%;
+    float:left;
+    display: inline-block;
+    top: 40px;
+    margin: 10px;
+}
+.foot-bar{
+    position: relative;
+    width:40%;
+    float:right;
+    display: inline-block;
+    top: 40px;
+    margin: 10px;
+}
+.foot-bar li{
+    display: inline-block;
+     padding: 4px;
+    margin: auto 30px;
+    font-size: 20px;
+}
+.foot-bar li a{
+   margin: 
+}
+.footer-nav{
+    position: relative;
+    list-style: none;
+    float: left;
+    display: inline-block;
+    text-align: center;
+   
+}
+.footer-nav li{
+    top: 40px;
+    display: inline-block;
+    padding: 4px;
+    margin: auto 30px;
+    font-size: 20px;
+    list-style: none;
+  
+}
+.footer-nav li a{
+      text-decoration: none;
+    border-bottom: 1px solid orange;
+    color: white;
+    transition-delay:color 10s;
+}
+.footer-nav li a:hover{
+      text-decoration: none;
+     border-bottom: 1px solid transparent;
+    color: red;
+}
+
+footer p{
+    position: relative;
+    top:20vh;
+    display: inline-block;
+   left: 50%;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(-50%,-50%);
+}
+
+.foot-bar li a ion-icon{
+    color: orange;
+
+    
+}
+.foot-bar li a ion-icon:hover{
+    color: orangered;
+    transform: scale(1.3)
+    
+}
+
+
+
+
+/*font-family: 'Poppins', sans-serif;/*

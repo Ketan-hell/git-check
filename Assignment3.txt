@@ -1,0 +1,3 @@
+Assignment-3 
+To read, write and append to a file.
+Created a text file "assign3.txt" and write data and read and append data to it. 
